@@ -1,7 +1,7 @@
 FROM node:7-alpine
 
-COPY . ./app
+COPY . /app
 
 WORKDIR /app
 
-CMD "npm start"
+CMD ["sh", "-c", "npm start"]
