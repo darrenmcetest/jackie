@@ -4,6 +4,7 @@
   "description": "Test API for tarantino",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Oh wait, i don't care about tests\" && exit 0"
   },
   "repository": {
